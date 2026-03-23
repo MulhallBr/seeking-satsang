@@ -5,131 +5,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seeking Satsang</title>
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- Calendly -->
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 </head>
-
 <body>
 
-<!-- NAV -->
-<nav class="nav">
-  <div class="container nav-inner">
-    <h1>Seeking Satsang</h1>
-    <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#sessions">Sessions</a>
-      <a href="#booking">Book</a>
-      <a href="#testimonials">Testimonials</a>
-      <a href="#books">Books</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-</nav>
+<header>
+  <h1>Seeking Satsang</h1>
+  <p>Guiding you to presence, stillness, and inner clarity</p>
+</header>
 
-<!-- HERO -->
 <section class="hero">
-  <h2>Return to Presence</h2>
-  <p>One-on-one satsang for clarity, stillness, and awakening.</p>
-  <a href="#booking" class="btn">Book a Session</a>
+  <h2>Discover Your True Self Through Satsang</h2>
+  <p>One-on-one guidance, reflections, and spiritual support for your journey of awakening.</p>
+  <a href="#sessions" class="btn">Book a Session</a>
 </section>
 
-<!-- ABOUT -->
-<section id="about" class="section container">
-  <h2>About</h2>
-  <p>
-    I guide individuals into presence, stillness, and surrender. Through direct conversation and satsang,
-    we explore what remains when identification with thought softens.
-  </p>
+<section id="about" class="intro">
+  <h3>About</h3>
+  <p>Hi, I’m Brian. I guide individuals in exploring presence, surrender, and inner clarity. Through one-on-one sessions and satsang, I help you uncover the stillness beneath thought and experience life from a deeper, more authentic place.</p>
 </section>
 
-<!-- SESSIONS -->
-<section id="sessions" class="section alt">
-  <div class="container">
-    <h2>1-on-1 Sessions</h2>
-    <p>
-      Sessions are intuitive and grounded in presence. We meet where you are and explore together.
-    </p>
-    <ul>
-      <li>60-minute private sessions</li>
-      <li>Zoom-based</li>
-      <li>Guidance in awareness, surrender, and clarity</li>
-    </ul>
+<section id="sessions" class="sessions alt">
+  <h3>1-on-1 Sessions</h3>
+  <p>Sessions are intuitive and grounded in presence. We meet where you are and explore together.</p>
+  <ul>
+    <li>60-minute private sessions via Zoom</li>
+    <li>Guidance in awareness, surrender, and clarity</li>
+    <li>Flexible scheduling to suit your journey</li>
+  </ul>
+</section>
+
+<section id="booking" class="intro">
+  <h3>Schedule a Session</h3>
+  <div class="calendly-inline-widget" data-url="https://calendly.com/YOUR-USERNAME" style="min-width:320px;height:700px;"></div>
+</section>
+
+<section class="testimonials">
+  <h3>Testimonials</h3>
+  <div class="testimonial-list">
+    <div class="testimonial">“Brian’s guidance helped me reconnect with my inner self and experience real clarity.”</div>
+    <div class="testimonial">“The sessions were gentle, profound, and transformative. I feel more at peace than ever.”</div>
+    <div class="testimonial">“Seeking Satsang is a true sanctuary for anyone exploring presence and spiritual awakening.”</div>
   </div>
 </section>
 
-<!-- BOOKING -->
-<section id="booking" class="section container">
-  <h2>Schedule a Session</h2>
-
-  <!-- Replace YOUR-LINK below -->
-  <div class="calendly-inline-widget"
-    data-url="https://calendly.com/YOUR-USERNAME"
-    style="min-width:320px;height:700px;">
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section id="testimonials" class="section alt">
-  <div class="container">
-    <h2>Testimonials</h2>
-
-    <div class="grid">
-      <div class="card">“Deep clarity and peace.”</div>
-      <div class="card">“A grounded and transformative presence.”</div>
-      <div class="card">“Helped me return to stillness.”</div>
-    </div>
-
-  </div>
-</section>
-
-<!-- BOOKS -->
-<section id="books" class="section container">
-  <h2>Recommended Books</h2>
-
+<section id="books" class="books alt">
+  <h3>Recommended Books</h3>
   <div class="grid">
-
-    <a class="card link" href="YOUR_AFFILIATE_LINK" target="_blank">
-      A Course in Miracles
-    </a>
-
-    <a class="card link" href="YOUR_AFFILIATE_LINK" target="_blank">
-      The Power of Now – Eckhart Tolle
-    </a>
-
-    <a class="card link" href="YOUR_AFFILIATE_LINK" target="_blank">
-      I Am That – Nisargadatta Maharaj
-    </a>
-
+    <a class="card link" href="YOUR_AFFILIATE_LINK" target="_blank">A Course in Miracles</a>
+    <a class="card link" href="YOUR_AFFILIATE_LINK" target="_blank">The Power of Now – Eckhart Tolle</a>
+    <a class="card link" href="YOUR_AFFILIATE_LINK" target="_blank">I Am That – Nisargadatta Maharaj</a>
   </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="section alt">
-  <div class="container">
-    <h2>Contact</h2>
-
-    <!-- Replace FORM_ID -->
-    <form action="https://formspree.io/f/FORM_ID" method="POST" class="form">
-
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-
-      <button type="submit" class="btn">Send</button>
-    </form>
-
-  </div>
+<section id="contact" class="contact alt">
+  <h3>Contact</h3>
+  <form action="https://formspree.io/f/FORM_ID" method="POST" class="form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
 </section>
 
-<!-- FOOTER -->
 <footer>
-  <p>© 2026 Seeking Satsang</p>
+  <p>© 2026 Seeking Satsang | <a href="#contact">Contact</a> | <a href="#books">Book Recommendations</a></p>
 </footer>
 
 <script src="https://assets.calendly.com/assets/external/widget.js"></script>
-<script src="js/main.js"></script>
 
 </body>
 </html>
