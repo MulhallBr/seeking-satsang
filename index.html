@@ -4,208 +4,132 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seeking Satsang</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    /* General Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
 
-    body {
-      font-family: 'Roboto', sans-serif;
-      color: #333;
-      background-color: #f9f9f9;
-      line-height: 1.6;
-    }
+  <link rel="stylesheet" href="css/styles.css">
 
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    /* Container */
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 2rem;
-    }
-
-    /* Header */
-    header {
-      background-color: #fff;
-      padding: 2rem 0;
-      text-align: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    }
-
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      color: #2c3e50;
-      margin-bottom: 0.5rem;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      color: #555;
-    }
-
-    /* Hero Section */
-    .hero {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 6rem 2rem;
-      background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
-    }
-
-    .hero h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      color: #2c3e50;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      max-width: 700px;
-      margin-bottom: 2rem;
-      color: #555;
-    }
-
-    .hero .btn {
-      background-color: #2c3e50;
-      color: #fff;
-      padding: 0.8rem 2rem;
-      border-radius: 5px;
-      font-weight: 500;
-      transition: 0.3s;
-    }
-
-    .hero .btn:hover {
-      background-color: #1a252f;
-    }
-
-    /* Sections */
-    section {
-      padding: 4rem 0;
-    }
-
-    .intro {
-      text-align: center;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .intro h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: #2c3e50;
-    }
-
-    .intro p {
-      font-size: 1.1rem;
-      color: #555;
-    }
-
-    /* Testimonials */
-    .testimonials {
-      background-color: #fff;
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-
-    .testimonials h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      margin-bottom: 2rem;
-      color: #2c3e50;
-    }
-
-    .testimonial-list {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
-
-    .testimonial {
-      background-color: #f4f4f4;
-      padding: 1.5rem;
-      border-radius: 8px;
-      font-style: italic;
-    }
-
-    /* Footer */
-    footer {
-      background-color: #2c3e50;
-      color: #fff;
-      padding: 2rem 0;
-      text-align: center;
-    }
-
-    footer a {
-      color: #f9f9f9;
-      margin: 0 0.5rem;
-      font-weight: 500;
-    }
-
-    /* Responsive */
-    @media(min-width: 768px) {
-      .testimonial-list {
-        flex-direction: row;
-        justify-content: center;
-      }
-
-      .testimonial {
-        max-width: 300px;
-      }
-    }
-  </style>
+  <!-- Calendly -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 </head>
+
 <body>
-  <!-- Header -->
-  <header>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="container nav-inner">
     <h1>Seeking Satsang</h1>
-    <p>Guiding you to presence, stillness, and inner clarity</p>
-  </header>
-
-  <!-- Hero -->
-  <section class="hero">
-    <h2>Discover Your True Self Through Satsang</h2>
-    <p>One-on-one guidance, reflections, and spiritual support for your journey of awakening.</p>
-    <a href="#sessions" class="btn">Book a Session</a>
-  </section>
-
-  <!-- Introduction -->
-  <section class="intro">
-    <h3>Welcome</h3>
-    <p>Hi, I’m Brian. I guide individuals in exploring presence, surrender, and inner clarity. Through one-on-one sessions and satsang, I help you uncover the stillness beneath thought and experience life from a deeper, more authentic place.</p>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="testimonials">
-    <h3>Testimonials</h3>
-    <div class="testimonial-list">
-      <div class="testimonial">
-        “Brian’s guidance helped me reconnect with my inner self and experience real clarity.”
-      </div>
-      <div class="testimonial">
-        “The sessions were gentle, profound, and transformative. I feel more at peace than ever.”
-      </div>
-      <div class="testimonial">
-        “Seeking Satsang is a true sanctuary for anyone exploring presence and spiritual awakening.”
-      </div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#sessions">Sessions</a>
+      <a href="#booking">Book</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#books">Books</a>
+      <a href="#contact">Contact</a>
     </div>
-  </section>
+  </div>
+</nav>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 Seeking Satsang | <a href="#contact">Contact</a> | <a href="#books">Book Recommendations</a></p>
-  </footer>
+<!-- HERO -->
+<section class="hero">
+  <h2>Return to Presence</h2>
+  <p>One-on-one satsang for clarity, stillness, and awakening.</p>
+  <a href="#booking" class="btn">Book a Session</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section container">
+  <h2>About</h2>
+  <p>
+    I guide individuals into presence, stillness, and surrender. Through direct conversation and satsang,
+    we explore what remains when identification with thought softens.
+  </p>
+</section>
+
+<!-- SESSIONS -->
+<section id="sessions" class="section alt">
+  <div class="container">
+    <h2>1-on-1 Sessions</h2>
+    <p>
+      Sessions are intuitive and grounded in presence. We meet where you are and explore together.
+    </p>
+    <ul>
+      <li>60-minute private sessions</li>
+      <li>Zoom-based</li>
+      <li>Guidance in awareness, surrender, and clarity</li>
+    </ul>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="booking" class="section container">
+  <h2>Schedule a Session</h2>
+
+  <!-- Replace YOUR-LINK below -->
+  <div class="calendly-inline-widget"
+    data-url="https://calendly.com/YOUR-USERNAME"
+    style="min-width:320px;height:700px;">
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section alt">
+  <div class="container">
+    <h2>Testimonials</h2>
+
+    <div class="grid">
+      <div class="card">“Deep clarity and peace.”</div>
+      <div class="card">“A grounded and transformative presence.”</div>
+      <div class="card">“Helped me return to stillness.”</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- BOOKS -->
+<section id="books" class="section container">
+  <h2>Recommended Books</h2>
+
+  <div class="grid">
+
+    <a class="card link" href="YOUR_AFFILIATE_LINK" target="_blank">
+      A Course in Miracles
+    </a>
+
+    <a class="card link" href="YOUR_AFFILIATE_LINK" target="_blank">
+      The Power of Now – Eckhart Tolle
+    </a>
+
+    <a class="card link" href="YOUR_AFFILIATE_LINK" target="_blank">
+      I Am That – Nisargadatta Maharaj
+    </a>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section alt">
+  <div class="container">
+    <h2>Contact</h2>
+
+    <!-- Replace FORM_ID -->
+    <form action="https://formspree.io/f/FORM_ID" method="POST" class="form">
+
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit" class="btn">Send</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Seeking Satsang</p>
+</footer>
+
+<script src="https://assets.calendly.com/assets/external/widget.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 </html>
