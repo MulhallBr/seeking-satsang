@@ -238,6 +238,21 @@ form button:hover {
   background-color: #1a252f;
 }
 
+/* Google Form container */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-container iframe {
+  width: 100%;
+  min-height: 700px;
+  border: none;
+}
+
 /* Cards / Grids (Books, YouTube, etc) */
 .grid {
   display: grid;
